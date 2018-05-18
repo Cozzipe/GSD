@@ -1,33 +1,77 @@
-body {
-  margin: 0;
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-.topnav {
-  overflow: hidden;
-  background-color: #333;
-}
-
-.topnav a {
-  float: left;
-  color: #f2f2f2;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-size: 17px;
-}
-
-.topnav a:hover {
-  background-color: #ddd;
-  color: black;
-}
-
-.topnav a.active {
-  background-color: #4CAF50;
-  color: white;
-}
-
-.images
+/*=================================== GENERALI*/
+p
 {
-  display: none;
+  font-size: 30px;
+  font-family: georgia;
+  font-style: normal;
+}
+
+#testo
+{
+    text-align: center;
+}
+
+body
+{
+  background: #ffffff;
+}
+/*=================================== IMMAGINE TITOLO +altre img*/
+#titolo
+{
+  position: absolute;
+  top: 1%;
+  width: 100%;
+  height: auto;
+}
+
+#jungleball
+{
+  width: 60%;
+  height: auto;
+}
+
+#screen
+{
+  position: relative;
+  left:10%;
+  width: 80%;
+  height: auto;
+}
+/*=================================== MENU DESKTOP*/
+nav
+{
+  position: static;
+  margin-top: 15%;
+  padding: 24px;
+  text-align: center;
+  font-family: georgia;
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
+
+  display: block;
+}
+
+#nav-1
+{
+  background: #000000;
+}
+
+.link-1
+{
+  transition: 0.3s ease;
+  background: #000000;
+  color: #ffffff;
+  font-size: 100%;
+  text-decoration: none;
+  border-top: 4px solid #000000;
+  border-bottom: 4px solid #000000;
+  padding: 20px 0;
+  margin: 0 20px;
+}
+
+
+.link-1:hover
+{
+  border-top: 4px solid #ffffff;
+  border-bottom: 4px solid #ffffff;
+  padding: 6px 0;
 }
